@@ -58,6 +58,7 @@ fieldset {
 }
 
 h2 {
+    padding-left: 37px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
@@ -67,13 +68,14 @@ h2 {
 #tribute-info > li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
-    margin: 0 auto; 
     text-align: center;
+    
+   
 }
 
 h4 {
     font-size: 22px;
-    text-align: center; 
+    text-align: center;
 }
 
 .quote {
@@ -81,3 +83,15 @@ h4 {
     font-size: 20px;
     text-align: center;
 }
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.quote-from
+{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 500px;
+}   
