@@ -5,21 +5,26 @@ body
 }
 #image
 {
-    
+    position: relative;
+    top: 40px;
     display: block;
     max-width: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-   
+    width: 70%;
 }
 #img-div
 {
     margin-bottom: 10px;
     background-color: white;
     max-height: 100%;
-    height: 500px;
-   
+    height: 700px;
+    max-width: 100%;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
 }
 fieldset
 {
@@ -36,9 +41,21 @@ fieldset
 }
 #title
 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
     display: block;
     margin: -10 auto;
     text-align: center;
-    padding: 20px;
-    
+    padding: 8px;
+    font-size: 40px;
 }
+.title-caption
+{
+    margin-bottom: 30px;
+    margin-top: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
