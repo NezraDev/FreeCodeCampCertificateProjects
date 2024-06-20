@@ -8,28 +8,103 @@
 </head>
 <body>
     <main id="main-doc">
-        <nav>
-        <ol>
-            <li><a href ="#comments">Comments</a></li>
-            <li><a href ="#docstrings">Docstrings</a></li>
-            <li><a href ="#module-packages">Module and Packages</a></li>
-            <li><a href ="#standard-ds">Standard Documentation Strings (Docstrings)</a></li>
-            <li><a href ="#docstring-REPL/IDE">Using Docstrings in REPL or ID</a></li>
-            <li><a href ="#docu-tool">Documentation Tools</a></li>
-            <li><a href ="#writing-docu-sphinx">Writing Documentation with Sphinx</a></li>
-            <li><a href ="#module-docu">Example of a Module with Documentation</a></li>
-            <li><a href ="#best-practices">Practices</a></li>
-        </ol>
-        </nav>
-        <section id ="comments"></section>
-        <section id="docstrings"></section>
-        <section id="module-packages"></section>
-        <section id="standard-ds"></section>
-        <section id="docstrings-REPL/IDE"></section>
-        <section id="docu-tool"></section>
-        <section id="writing-docu-sphinx"></section>
-        <section id="module-docu"></section>
-        <section id="best-practices"></section>
+        <header>
+            <nav id="navbar">
+                <header>
+                    <h2>Python Documentation</h2>
+                </header>
+                <ol>
+                    <li><a class ="nav-link" href ="#Comments">Comments</a></li>
+                    <li><a class ="nav-link" href ="#Docstrings">Docstrings</a></li>
+                    <li><a class ="nav-link" href ="#Module_and_Packages">Module and Packages</a></li>
+                    <li><a class ="nav-link" href ="#Standard_Documentation_Strings_(Docstrings)">Standard Documentation Strings (Docstrings)</a></li>
+                    <li><a class ="nav-link" href ="#Using_Docstrings_in_REPL_or_ID">Using Docstrings in REPL or ID</a></li>
+                    <li><a class ="nav-link" href ="#Documentation_Tools">Documentation Tools</a></li>
+                    <li><a class ="nav-link" href ="#Writing_Documentation_with_Sphinx">Writing Documentation with Sphinx</a></li>
+                    <li><a class ="nav-link" href ="#Example_of_a_Module_with_Documentation">Example of a Module with Documentation</a></li>
+                    <li><a class ="nav-link" href ="#Best_Practices">Best Practices</a></li>
+                </ol>
+            </nav>
+
+        </header>
+
+            <section id="Comments" class ="main-section">
+                <header>
+                    <h1>Comments</h1>
+                    <ul>
+                        <li><b>Single-line comments:</b> Use the '#' symbol.</li>
+                        <span>#This is a single-line comment</span>
+                        <li><b>Multi-line comments:</b> Use triple quotes (' ' ' or " " ")</li>
+                    </ul>
+                        <span>"""<br>This is a multi-line comment<br> or docstring (more on this later).<br>"""
+                        </span>
+                   
+                </header>
+            </section>
+            <section id="Docstrings" class ="main-section" >
+                <header>
+                    <h1>Docstrings</h1>
+                    <ul>
+                        <li><p>Docstrings are string literals that appear right after the definition of a function, method, class, or module. They are used to document the code.</p></li>
+                        <li><span>Use triple quotes (''' or """).</span></li>
+                    </ul>
+                    <span># mymodule.py</span><br>
+                    <span>def my_function():<br> """ <br>This is a docstring. It explains what the function does.<br>"""<br>pass</span>
+
+                </header>
+            </section>
+            <section id="Module_and_Packages" class ="main-section">
+                <header>
+                    <h1>Module and Packages</h1>
+                    <ul>
+                        <li><p>A<b> module</b> is a single Python file that can contain functions, classes, and variables.</p></li>
+                        <li><p>A<b> package</b>is a collection of modules in directories that provide a hierarchy of modules.</p></li>
+                    </ul>
+                    <span># mymodule.py</span><br>
+                    <span>def my_function():<br> """ <br>Function in a module.<br>"""<br>pass</span>
+
+                </header>
+            </section>
+            <section id="Standard_Documentation_Strings_(Docstrings)" class ="main-section">
+                <header>
+                    <h1>Standard Documentation Strings (Docstrings) </h1>
+                    <ul>
+                        <li><p><b>PEP 257</b> is the convention for writing docstrings in Python</p></li>
+                        <li><p><b>Example for a function:</b></p></li>
+                    </ul>
+                    <span>def add(a,b):<br>"""<br> Add two numbers.<br> <br> Parameters:<br> a (int): The first number.<br>b (int): The second number.<br> <br> Returns:<br>int: The sum of the two numbers.<br>"""<br> return a + b</span><br>
+                   
+                </header>
+            </section>
+            <section id="Using_Docstrings_in_REPL_or_ID" class ="main-section">
+                <header>
+                    <h1>Using Docstrings in REPL or ID</h1>
+                    <ul>
+                        <li><p>You can access the docstring of an object using the __doc__ attribute.</p></li>
+                    </ul>
+                    <span>print(add._doc_)</span>
+                </header>
+            </section>
+            <section id="Documentation_Tools" class ="main-section">
+                <header>
+                    <h1>Documentation Tools</h1>
+                </header>
+            </section>
+            <section id="Writing_Documentation_with_Sphinx" class ="main-section">
+                <header>
+                    <h1>Writing Documentation with Sphinx</h1>
+                </header>
+            </section>
+            <section id="Example_of_a_Module_with_Documentation" class ="main-section">
+                <header>
+                    <h1>Example of a Module with Documentation</h1>
+                </header>
+            </section>
+            <section id="Best_Practices" class ="main-section">
+                <header>
+                    <h1>Best Practices</h1>
+                </header>
+            </section>
     </main>
 </body>
 </html>
