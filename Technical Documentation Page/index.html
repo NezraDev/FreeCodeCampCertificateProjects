@@ -13,7 +13,7 @@
                 <header>
                     <h2>Python Documentation</h2>
                 </header>
-                <ol>
+                <ol class ="nav-contents">
                     <li><a class="nav-link" href="#Comments">Comments</a></li>
                     <li><a class="nav-link" href="#Docstrings">Docstrings</a></li>
                     <li><a class="nav-link" href="#Module_and_Packages">Module and Packages</a></li>
@@ -31,11 +31,15 @@
                 <h1>Comments</h1>
             </header>
             <ul>
-                <li><p><b>Single-line comments:</b></p> Use the '#' symbol.</li>
+                <li><p><b>Single-line comments:</b> Use the '#' symbol.</p></li>
                 <li><p><b>Multi-line comments:</b> Use triple quotes (' ' ' or " " ")</p></li>
             </ul>
-            <p>"""<br>This is a multi-line comment<br> or docstring (more on this later).<br>"""</p>
+            <div class ="code">
+            <code>"""<br>This is a multi-line comment<br> or docstring (more on this later).<br>"""</code>
+            </div>
+            <div class ="code">
             <code>#This is a single-line comment</code>
+            </div>
         </section>
 
         <section id="Docstrings" class="main-section">
@@ -46,7 +50,9 @@
                 <li><p>Docstrings are string literals that appear right after the definition of a function, method, class, or module. They are used to document the code.</p></li>
                 <li><p>Use triple quotes (''' or """).</p></li>
             </ul>
+            <div class ="code">
             <code># mymodule.py<br>def my_function():<br> """ <br>This is a docstring. It explains what the function does.<br>"""<br>pass</code>
+            </div>
         </section>
 
         <section id="Module_and_Packages" class="main-section">
@@ -57,7 +63,9 @@
                 <li><p>A<b> module</b> is a single Python file that can contain functions, classes, and variables.</p></li>
                 <li><p>A<b> package</b> is a collection of modules in directories that provide a hierarchy of modules.</p></li>
             </ul>
+            <div class ="code">
             <code># mymodule.py<br>def my_function():<br> """ <br>Function in a module.<br>"""<br>pass</code>
+            </div>
         </section>
 
         <section id="Standard_Documentation_Strings_(Docstrings)" class="main-section">
@@ -68,7 +76,9 @@
                 <li><p><b>PEP 257</b> is the convention for writing docstrings in Python</p></li>
                 <li><p><b>Example for a function:</b></p></li>
             </ul>
+            <div class ="code">
             <code>def add(a,b):<br>"""<br> Add two numbers.<br> <br> Parameters:<br> a (int): The first number.<br>b (int): The second number.<br> <br> Returns:<br>int: The sum of the two numbers.<br>"""<br> return a + b</code>
+            </div>
         </section>
 
         <section id="Using_Docstrings_in_REPL_or_ID" class="main-section">
@@ -78,7 +88,9 @@
             <ul>
                 <li><p>You can access the docstring of an object using the __doc__ attribute.</p></li>
             </ul>
-            <code>print(add._doc_)</code>
+            <div class ="code">
+                <code>print(add._doc_)</code>
+            </div>
         </section>
 
         <section id="Documentation_Tools" class="main-section">
@@ -98,11 +110,17 @@
             </header>
             <ul>
                 <li><p>Install Sphinx:</p></li>
+                <div class ="code">
                 <code>pip install sphinx</code>
+                </div>
                 <li><p>Initialize Sphinx in your project:</p></li>
+                <div class ="code">
                 <code>sphinx-quickstart</code>
+                </div>
                 <li><p>Build the documentation:</p></li>
+                <div class ="code">
                 <code>make html</code>
+                </div>
             </ul>
         </section>
 
