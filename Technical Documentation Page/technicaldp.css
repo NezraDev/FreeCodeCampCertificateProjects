@@ -1,0 +1,33 @@
+#navbar {
+    position: fixed;
+    font-size: 20px;
+    margin: -9px 0 0 -10px; 
+    max-height: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    line-height: 75px;
+}
+
+#navbar li {
+    width: 510px;
+    position: relative;
+    left: -40px;
+    border: 1px solid black;
+    padding: 9px;
+    box-sizing: border-box;
+    list-style: none;  
+}
+
+section
+{
+    padding: 0 500px;
+    justify-content:flex-end;
+}
+header h2
+{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
