@@ -81,19 +81,34 @@ body, html
     background-color: black;
     color: wheat;
 }
-section
+
+.features
 {
-    
+    position: relative;
+    left: 500px;
 }
-section .material-symbols-outlined
+
+section h1, section p, .features .material-symbols-outlined
 {
-    font-size: 50px;
-    display: contents;
+    margin-right: 40px;
+}
+
+.features .material-symbols-outlined
+{
+    font-size: 70px;
     flex-direction: column;
+    position: relative;
+    top: 30px;
 }
 
 section h1
 {
-    font-size: 30px;
     display: contents;
+    font-size: 30px;
+}
+
+section p
+{
+   font-size: 15px;
+   margin-left: 113px;
 }
